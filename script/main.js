@@ -41,6 +41,9 @@ addBtn.addEventListener('click', () => {
 
 function showTasks(arr = tasks) {
     let array = arr;
+    if (array.length === 0){
+        todoList.innerHTML = "";
+    }
     if (!tasks.length) {
         todoList.innerHTML = "";
         clearAllBtn.classList.add('disabled');
