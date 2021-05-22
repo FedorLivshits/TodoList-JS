@@ -149,7 +149,6 @@ ul.breadcrumb li a {
 /* Add a color on mouse-over */
 ul.breadcrumb li a:hover {
     color: #01447e;
-    text-decoration: underline;
 }
 /*----------------scroll---------------*/
 ::-webkit-scrollbar {
@@ -157,27 +156,6 @@ ul.breadcrumb li a:hover {
     overflow: visible;
     width: 8px
 }
-
-::-webkit-scrollbar-button {
-    height: 0;
-    width: 0
-}
-
-::-webkit-scrollbar-track {
-    background-clip: padding-box;
-    box-shadow: inset 1px 0 0 #e6e6e6
-}
-
-::-webkit-scrollbar-track:hover {
-    background-color: #f3f3f3;
-    box-shadow: inset 1px 0 0 #e6e6e6
-}
-
-::-webkit-scrollbar-track:active {
-    background-color: #f3f3f3;
-    box-shadow: inset 1px 0 0 #dcdcdc, inset -1px 0 0 #eeeeee
-}
-
 ::-webkit-scrollbar-thumb {
     background-color: #cccccc;
     background-clip: padding-box;
@@ -190,9 +168,4 @@ ul.breadcrumb li a:hover {
 ::-webkit-scrollbar-thumb:hover {
     background-color: #999999;
     box-shadow: inset 1px 1px 1px #c0c0c0
-}
-
-::-webkit-scrollbar-thumb:active {
-    background-color: #808080;
-    box-shadow: inset 1px 1px 3px #a6a6a6
 }
